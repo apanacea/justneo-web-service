@@ -11,5 +11,5 @@ before_install:
 install: skip
 script:
   - ./gradlew build
-  - scp -o stricthostkeycheck=no -r ./build/libs/* root@59.110.220.167:/home/work/justneo/
+  - scp -o stricthostkeychecking=no -r build/libs/* root@59.110.220.167:/home/work/justneo/
 
