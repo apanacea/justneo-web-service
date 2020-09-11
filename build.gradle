@@ -6,7 +6,7 @@ plugins {
 
 group = 'org.justneo'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '14'
+sourceCompatibility = '8'
 
 configurations {
     compileOnly {

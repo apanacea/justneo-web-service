@@ -1,6 +1,6 @@
 spring:
   datasource:
     url: jdbc:mysql://rm-bp141heb691v0xbijao.mysql.rds.aliyuncs.com:3306/justneo
-    username: jusetneo
+    username: justneo
     password: Wp2020615!!
     driver-class-name: com.mysql.cj.jdbc.Driver
