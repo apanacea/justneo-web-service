@@ -1,9 +1,10 @@
 language: java
 install: skip
-
 os: linux
 dist: trusty
 jdk: oraclejdk8
-
 script:
-  - ./gradlew build
+- "./gradlew build"
+before_install:
+- openssl aes-256-cbc -K $encrypted_db2095f63ba3_key -iv $encrypted_db2095f63ba3_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
