@@ -15,4 +15,4 @@ install:
   - ./gradlew build
 script:
   - scp build/libs/* root@59.110.220.167:/home/work/justneo/
-  - ssh root@59.110.220.167 "./deploy.ssh"
+  - ssh root@59.110.220.167 "./deploy.sh"
